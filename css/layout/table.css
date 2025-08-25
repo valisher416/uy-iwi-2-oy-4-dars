@@ -1,0 +1,88 @@
+#table{
+    margin-top: 90px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.table-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.table-text{
+    text-align: center;
+    font-size: 34px;
+    color: rgba(34, 52, 61, 1);
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.table-desc{
+    text-align: center;
+    color: rgba(34, 52, 61, 1);
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+.table-card__text{
+    font-size: 76px;
+    color: rgba(2, 137, 122, 1);
+}
+.table-card{
+    max-width: 322px;
+    height: 456px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding-top: 34px;
+     box-shadow: 5px 5px 10px gray;
+     border-radius: 8px;
+     transition: 0.5s;
+}
+.table-card:hover .table-card__text{
+    color: white;
+}
+.table-card:hover{
+    background-color: rgba(2, 137, 122, 1);
+    color: white;
+     h3{
+        color: white;
+
+    }
+ 
+}
+.table-card:hover button{
+    background-color: white;
+    color: rgba(2, 137, 122, 1);
+    font-weight: 600;
+}
+.table-card-h3{
+    color: rgba(34, 52, 61, 1);
+    padding-top: 8px;
+    padding-bottom: 16px;
+}
+.table-card h3{
+    color: rgba(34, 52, 61, 1);
+    font-weight: 500;
+    padding-top: 16px;
+    padding-bottom: 11px;
+}
+.table-card button{
+    background-color: rgba(2, 137, 122, 1);
+    width: 139px;
+    height: 44px;
+    border-radius: 8px;
+    color: white;
+    border:none;
+    margin-top: 38px;
+   
+}
+@media (max-width:960px) {
+    .table-cards{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:690px) {
+    .table-cards{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+}

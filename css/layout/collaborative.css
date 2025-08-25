@@ -1,0 +1,47 @@
+#collaborative{
+    padding-top: 30px;
+}
+
+.collaborative-cards{
+    display: flex;
+    align-items: center;
+    gap: 84px;
+}
+.collaborative-card h5{
+    font-weight: 600;
+    color: rgba(34, 52, 61, 1);
+    padding-bottom: 10px;
+}
+.collaborative-card h1{
+font-size: 32px;
+font-weight: 700;
+padding-bottom: 23px;
+}
+.collaborative-card p{
+    font-weight: 400;
+    color: rgba(34, 52, 61, 1);
+    padding-bottom: 30px;
+}
+.collaborative-card h3{
+    padding-bottom: 12px;
+    color: rgba(34, 52, 61, 1);
+    font-weight: 600;
+}
+.collaborative-card{
+    max-width: 486px;
+    width: 100%;
+}
+.collaborative-img{
+    max-width: 541px;
+    width: 100%;
+}
+@media (max-width:970px) {
+    .collaborative-cards{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:400px) {
+     .collaborative-card{
+        padding-top: 10px;
+     }
+}

@@ -1,0 +1,64 @@
+#say{
+    margin-top: 90px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+
+
+
+
+.say-card{
+   max-width: 327px;
+   height: 236px;
+   padding: 28px;
+   border: 1px solid rgba(222, 222, 222, 1)
+}
+.say-card img{
+    padding-bottom: 16px;
+}
+.say-card__img{
+    padding-top: 16px;
+}
+.say-card p{
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.2px;
+
+}
+.say-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.say-text{
+    text-align: center;
+    color: rgba(34, 52, 61, 1);
+    font-size: 34px;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+.say-desc{
+    max-width: 537px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    color: rgba(34, 52, 61, 1);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    padding-bottom: 40px;
+}
+@media (max-width:960px) {
+    .say-cards{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:690px) {
+    .say-cards{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+}

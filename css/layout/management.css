@@ -1,0 +1,46 @@
+#management{
+  background-color: white;
+  padding-top: 10px;
+  margin-top: 30px;
+  padding-bottom: 80px;
+}
+
+.management-cards{
+    display: flex;
+    gap: 84px;
+    align-items: center;
+}
+.management-card h4{
+    font-size: 16px;
+    color: rgba(34, 52, 61, 1);
+    padding-bottom: 10px;
+}
+.management-card h1{
+    font-size: 32px;
+    color: rgba(34, 52, 61, 1);
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.management-card p{
+    color: rgba(34, 52, 61, 1);
+    font-weight: 200;
+    padding-bottom: 30px;
+}
+.management-card h3{
+     font-weight: bold;
+}
+.management-card{
+    width: 486px;
+
+}
+.management-imges{
+    max-width: 539.83px;
+    width: 100%;
+}
+@media (max-width:850px) {
+    .management-cards{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+}
